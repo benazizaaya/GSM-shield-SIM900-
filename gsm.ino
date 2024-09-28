@@ -7,7 +7,7 @@ void setup()
  Serial.begin(9600);
  delay(2000); // give time to log on to network. 
 }
- 
+   
 void loop()
 {
  SIM900.print("AT+CMGF=1\r"); 
